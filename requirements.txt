@@ -1,0 +1,15 @@
+selenium
+webdriver-manager
+beautifulsoup4
+requests
+pandas
+numpy
+scipy
+matplotlib
+seaborn
+yfinance
+transformers
+torch
+sentencepiece
+tqdm
+jupyter
