@@ -24,6 +24,7 @@ This project analyzes whether news sentiment from Indonesian media (Kompas & Tem
 - **IHSG Data**: yFinance
 
 ## Project Structure
+```
 news-sentiment-ihsg/
 ├── data/
 │   ├── raw/          # scraped articles per source
@@ -39,21 +40,24 @@ news-sentiment-ihsg/
 │   ├── scraper.py
 │   ├── preprocessor.py
 │   └── sentiment.py
-├── outputs/figures/  # saved visualizations
+├── outputs/figures/
 └── requirements.txt
+```
 
 ## Pipeline
+```
 Scraping (Selenium)
-↓
+        ↓
 Preprocessing & Cleaning
-↓
+        ↓
 Sentiment Analysis (IndoBERT)
-↓
+        ↓
 IHSG Data Collection (yFinance)
-↓
+        ↓
 Correlation & Lag Analysis
-↓
+        ↓
 Visualization
+```
 
 ## Results
 | Analysis | Result |
